@@ -2,3 +2,5 @@
 demo/
 .hugo/*
 !.hugo/version
+resources
+public
