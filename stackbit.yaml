@@ -1,16 +1,11 @@
 stackbitVersion: ~0.3.0
-ssgName: custom
-publishDir: demo/public
-buildCommand: make prepare && hugo --source demo --baseURL "/"
-uploadDir: images
-staticDir: exampleSite/static
-pagesDir: exampleSite/content
-dataDir: exampleSite
+ssgName: hugo
+pageLayoutKey: ""
+
 models:
   config:
-    type: data
+    type: config
     label: Config
-    file: config.toml
     fields:
       - type: string
         name: title
